@@ -6406,6 +6406,7 @@ end
         TextXAlignment = Enum.TextXAlignment.Left;
         ZIndex = 1;
         Parent = Inner;
+        RichText = true;
     })
 
     local MainSectionOuter = Library:Create('Frame', {
